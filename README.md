@@ -32,6 +32,10 @@ I engineered a sequence model that acts as a "Next-Token Predictor"—the fundam
 | **Training Stability** | <code>Teacher Forcing</code> | A training strategy that feeds the *actual* previous token (ground truth) instead of the *predicted* one, stabilizing convergence. |
 | **Diversity Control** | <code>Temperature Scaling</code> | A hyperparameter that controls the "creativity" of the output (Low Temp = Deterministic, High Temp = Creative/Random). |
 
+### Architecture
+
+![Architecture](NeuroLex.png)
+
 ---
 
 ### 🔬 Technical Deep Dive (Ablation)
